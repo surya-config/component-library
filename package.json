@@ -1,6 +1,6 @@
 {
   "name": "config-react-components",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "Reusable react components from scratch",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -18,7 +18,9 @@
     "url": "git+https://github.com/surya-config/component-library.git"
   },
   "keywords": [
-    "config-components"
+    "config-components",
+    "config react components",
+    "react components"
   ],
   "author": "Surya",
   "license": "ISC",
@@ -31,7 +33,7 @@
     "@rollup/plugin-node-resolve": "^13.0.4",
     "@rollup/plugin-typescript": "^8.2.5",
     "@types/react": "^17.0.18",
-    "react": ">=17.0.2",
+    "react": ">=16.8.0",
     "rimraf": "^3.0.2",
     "rollup": "^2.56.2",
     "rollup-plugin-dts": "^3.0.2",
@@ -41,6 +43,7 @@
     "typescript": "^4.3.5"
   },
   "peerDependencies": {
-    "react": ">=17.0.2"
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
   }
 }
